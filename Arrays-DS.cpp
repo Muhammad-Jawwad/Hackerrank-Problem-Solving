@@ -14,11 +14,11 @@ vector<string> split(const string &);
  */
 
 vector<int> reverseArray(vector<int> a) {
-    vector<int> reverse_arr(a.size()); //Making a new array
+    vector<int> reverse_array(a.size()); //Making a new array
     for (int i=a.size()-1; i >= 0; i--) { //Iterating reverse loop
-        reverse_arr[a.size()-1-i] = a[i]; //appending
+        reverse_array[a.size()-1-i] = a[i]; //appending
     }
-    return reverse_arr;
+    return reverse_array;
 }
 }
 
